@@ -1,6 +1,6 @@
 export default function Card(props) {
 	return (
-		<div className="max-w-sm rounded overflow-hidden border-2 border-black dark:border-zinc-200">
+		<div className="max-w-sm rounded overflow-hidden border-2 border-black dark:border-zinc-200 dark:hover:border-cyan-600">
 			<div className="px-6 py-4">
 				<div className="font-bold text-xl mb-2 dark:text-white">The Coldest Sunset</div>
 				<p className="text-zinc-700 text-base dark:text-zinc-200">
