@@ -1,24 +1,15 @@
+import Link from "next/link"
 export default function Card(props) {
 	return (
+		<Link href={props.link} passHref={true}>
 		<div className="max-w-sm rounded overflow-hidden border-2 border-black dark:border-zinc-200 dark:hover:border-cyan-600">
 			<div className="px-6 py-4">
-				<div className="font-bold text-xl mb-2 dark:text-white">The Coldest Sunset</div>
-				<p className="text-zinc-700 text-base dark:text-zinc-200">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
-					Maiores et perferendis eaque, exercitationem praesentium nihil.
+				<div className="font-bold text-xl mb-2 dark:text-white text-left">{props.cardTitle}</div>
+				<p className="text-zinc-700 text-base dark:text-zinc-200 text-left">
+					{props.cardDescription}
 				</p>
 			</div>
-			<div className="px-6 pt-4 pb-2">
-				<span className="inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mr-2 mb-2 dark:bg-zinc-700 dark:text-zinc-200">
-					{props.tool1}
-				</span>
-				<span className="inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mr-2 mb-2 dark:bg-zinc-700 dark:text-zinc-200">
-					{props.tool2}
-				</span>
-				<span className="inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mr-2 mb-2 dark:bg-zinc-700 dark:text-zinc-200">
-					{props.tool3}
-				</span>
-			</div>
 		</div>
+		</Link>
 	);
 }
