@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Card from "../components/card";
-import Footer from "../components/footer";
 import Link from "next/link";
 
 export default function Home() {
 	return (
-		<div className="bg-white dark:bg-gradient-to-b from-slate-900 via-gray-900 to-zinc-900 text-black dark:text-white">
+		<div>
 			<Head>
 				<title>Jake Hiney</title>
 				<meta name="description" content="Jake Hiney" />
@@ -27,7 +26,6 @@ export default function Home() {
 					/>
 					<Card cardTitle="API" cardDescription="Because why not?" link="/reference" />
 				</div>
-				<Footer />
 			</div>
 		</div>
 	);
