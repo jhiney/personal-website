@@ -14,46 +14,41 @@ export default function About() {
 							Hi! My name is Jake.
 						</h2>
 						<p className="mt-4 text-zinc-400">
-							The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards.
-							The powder coated steel divider separates active cards from new ones, or can be used
-							to archive important task lists.
+							I am currently a financial systems & database analyst working in the non-profit
+							sector. Self-taught programmer trying to learn something new every day.
 						</p>
 
 						<dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Origin</dt>
-								<dd className="mt-2 text-sm text-zinc-400">Designed by Good Goods, Inc.</dd>
+								<dt className="font-medium text-white">Education</dt>
+								<dd className="mt-2 text-sm text-zinc-400">Bachelor of Science, Texas A&M</dd>
+								<dd className="mt-2 text-sm text-zinc-400">August 2014 - May 2018</dd>
 							</div>
 
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Material</dt>
+								<dt className="font-medium text-white">Interests</dt>
 								<dd className="mt-2 text-sm text-zinc-400">
-									Solid walnut base with rare earth magnets and powder coated steel card cover
+									College Football &bull; Road Trips &bull; Trying to break 100
 								</dd>
 							</div>
 
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Dimensions</dt>
-								<dd className="mt-2 text-sm text-zinc-400">6.25&quot; x 3.55&quot; x 1.15&quot;</dd>
-							</div>
-
-							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Finish</dt>
+								<dt className="font-medium text-white">Languages, Frameworks, and Tools</dt>
 								<dd className="mt-2 text-sm text-zinc-400">
-									Hand sanded and finished with natural oil
+									C# &bull; JavaScript &bull; VBA &bull; C/AL &bull; SQL &bull; HTML &bull; CSS
+								</dd>
+								<dd className="mt-2 text-sm text-zinc-400">
+									React &bull; .NET &bull; Node.js &bull; Tailwind CSS &bull; Next.js
+								</dd>
+								<dd className="mt-2 text-sm text-zinc-400">
+									GIT &bull; GitHub &bull; Visual Studio &bull; SQL Server &bull; Microsoft Office
+									Suite
 								</dd>
 							</div>
 
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Includes</dt>
-								<dd className="mt-2 text-sm text-zinc-400">Wood card tray and 3 refill packs</dd>
-							</div>
-
-							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Considerations</dt>
-								<dd className="mt-2 text-sm text-zinc-400">
-									Made from natural materials. Grain and color vary with each item.
-								</dd>
+								<dt className="font-medium text-white">Currently Learning</dt>
+								<dd className="mt-2 text-sm text-zinc-400">Go &bull; Rust &bull; Docker</dd>
 							</div>
 						</dl>
 					</div>
