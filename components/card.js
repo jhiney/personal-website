@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Card(props) {
 	return (
 		<Link href={props.link} passHref={true}>
-			<div className="max-w-sm rounded overflow-hidden border-2 border-black dark:border-zinc-400 dark:hover:border-cyan-600">
+			<div className="max-w-sm rounded overflow-hidden border-4 border-black dark:border-zinc-400 dark:hover:border-cyan-500">
 				<div className="px-6 py-4">
 					{!props.cardTitle ? (
 						""
@@ -11,7 +11,7 @@ export default function Card(props) {
 							{props.cardTitle}
 						</div>
 					)}
-					<p className="text-zinc-700 text-base dark:text-zinc-400 text-left">
+					<p className="text-zinc-700 text-base dark:text-zinc-300 text-left">
 						{props.cardDescription}
 					</p>
 				</div>
