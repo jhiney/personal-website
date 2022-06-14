@@ -1,7 +1,7 @@
 import { VscGithub, VscMail } from "react-icons/vsc";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { ImProfile } from "react-icons/im";
 import { IconContext } from "react-icons";
+import {AiOutlineHome} from "react-icons/ai"
 import Link from "next/link";
 export default function Footer() {
 	return (
@@ -11,7 +11,7 @@ export default function Footer() {
 					<div className="hover:text-cyan-600"><Link  href="https://github.com/jhiney" passHref={true}><VscGithub /></Link></div>
 					<div className="hover:text-cyan-600"><VscMail /></div>
 					<div className="hover:text-cyan-600"><Link href="https://www.linkedin.com/in/jhiney/" passHref={true}><AiOutlineLinkedin /></Link></div>
-					<div className="hover:text-cyan-600"><ImProfile /></div>
+					<div className="hover:text-cyan-600"><Link href="/" passHref={true}><AiOutlineHome /></Link></div>
 				</IconContext.Provider>
 			</div>
 		</div>
