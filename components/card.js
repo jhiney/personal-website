@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Card(props) {
 	return (
 		<Link href={props.link} passHref={true}>
-			<div className="max-w-sm rounded overflow-hidden border-4 border-black dark:border-zinc-400 dark:hover:border-cyan-500">
+			<div className="shadow-lg max-w-sm rounded overflow-hidden border-4 border-black dark:border-zinc-400 dark:hover:shadow-cyan-400/50 ">
 				<div className="px-6 py-4">
 					{!props.cardTitle ? (
 						""
