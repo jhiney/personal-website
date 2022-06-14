@@ -20,35 +20,35 @@ export default function About() {
 
 						<dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Education</dt>
-								<dd className="mt-2 text-sm text-zinc-400">Bachelor of Science, Texas A&M</dd>
-								<dd className="mt-2 text-sm text-zinc-400">August 2014 - May 2018</dd>
+								<dt className="text-xl font-medium text-white">Education</dt>
+								<dd className="mt-2 text-lg text-zinc-400">Bachelor of Science, Texas A&M</dd>
+								<dd className="mt-2 text-lg text-zinc-400">August 2014 - May 2018</dd>
 							</div>
 
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Interests</dt>
-								<dd className="mt-2 text-sm text-zinc-400">
+								<dt className="text-xl font-medium text-white">Interests</dt>
+								<dd className="mt-2 text-lg text-zinc-400">
 									College Football &bull; Road Trips &bull; Trying to break 100
 								</dd>
 							</div>
 
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Languages, Frameworks, and Tools</dt>
-								<dd className="mt-2 text-sm text-zinc-400">
+								<dt className="text-xl font-medium text-white">Languages, Frameworks, and Tools</dt>
+								<dd className="mt-2 text-lg text-zinc-400">
 									C# &bull; JavaScript &bull; VBA &bull; C/AL &bull; SQL &bull; HTML &bull; CSS
 								</dd>
-								<dd className="mt-2 text-sm text-zinc-400">
+								<dd className="mt-2 text-lg text-zinc-400">
 									React &bull; .NET &bull; Node.js &bull; Tailwind CSS &bull; Next.js
 								</dd>
-								<dd className="mt-2 text-sm text-zinc-400">
+								<dd className="mt-2 text-lg text-zinc-400">
 									GIT &bull; GitHub &bull; Visual Studio &bull; SQL Server &bull; Microsoft Office
 									Suite
 								</dd>
 							</div>
 
 							<div className="border-t border-gray-200 pt-4">
-								<dt className="font-medium text-white">Currently Learning</dt>
-								<dd className="mt-2 text-sm text-zinc-400">Go &bull; Rust &bull; Docker</dd>
+								<dt className="text-xl font-medium text-white">Currently Learning</dt>
+								<dd className="mt-2 text-lg text-zinc-400">Go &bull; Rust &bull; Docker</dd>
 							</div>
 						</dl>
 					</div>
