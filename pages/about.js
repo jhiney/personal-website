@@ -19,20 +19,20 @@ export default function About() {
 						</p>
 
 						<dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-							<div className="border-t border-gray-200 pt-4 ">
+							<div className="border-t-2 border-gray-200 pt-4 hover:border-cyan-500">
 								<dt className="text-xl font-medium text-cyan-500">Education</dt>
 								<dd className="mt-2 text-lg text-zinc-300">Bachelor of Science, Texas A&M</dd>
 								<dd className="mt-2 text-lg text-zinc-300">August 2014 - May 2018</dd>
 							</div>
 
-							<div className="border-t border-gray-200 pt-4 ">
+							<div className="border-t-2 border-gray-200 pt-4 hover:border-cyan-500">
 								<dt className="text-xl font-medium text-cyan-500">Interests</dt>
 								<dd className="mt-2 text-lg text-zinc-300">
 									College Football &bull; Road Trips &bull; Mexican Food
 								</dd>
 							</div>
 
-							<div className="border-t border-gray-200 pt-4">
+							<div className="border-t-2 border-gray-200 pt-4 hover:border-cyan-500">
 								<dt className="text-xl font-medium text-cyan-500">
 									Languages, Frameworks, and Tools
 								</dt>
@@ -48,7 +48,7 @@ export default function About() {
 								</dd>
 							</div>
 
-							<div className="border-t border-gray-200 pt-4 hover:border-cyan-500">
+							<div className="border-t-2 border-gray-200 pt-4 hover:border-cyan-500">
 								<dt className="text-xl font-medium text-cyan-500">Currently Learning</dt>
 								<dd className="mt-2 text-lg text-zinc-300">Go &bull; Rust &bull; Docker</dd>
 							</div>
