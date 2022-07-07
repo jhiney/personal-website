@@ -12,7 +12,7 @@ export default function Home() {
 			</Head>
 			<div className="flex flex-1 flex-col justify-center items-center p-8 min-h-screen">
 				<h1 className="font-bold text-7xl text-center">Jake Hiney</h1>
-				<p className="text-center text-2xl p-8 leading-6 text-zinc-300">
+				<p className="text-center text-2xl p-8 leading-6 text-zinc-500 dark:text-zinc-300">
 					Financial systems & database analyst, self-taught programmer.
 				</p>
 				<div className="grid lg:grid-cols-3 gap-6 pt-6 sm:grid-cols-1 md:grid-cols-2">

@@ -3,7 +3,7 @@ export default function Card(props) {
 	return (
 		<Link href={props.link} passHref={true}>
 			
-				<div className="shadow-lg max-w-sm rounded overflow-hidden border-4 border-black dark:border-zinc-400 dark:hover:shadow-cyan-400/75 transition-shadow duration-500">
+				<div className="shadow-lg max-w-sm rounded overflow-hidden border-4 border-black dark:border-zinc-400 hover:shadow-cyan-400/75 transition-shadow duration-500">
 					<div className="px-6 py-4">
 						{!props.cardTitle ? (
 							""
